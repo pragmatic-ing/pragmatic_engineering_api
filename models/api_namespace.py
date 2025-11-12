@@ -1,6 +1,6 @@
 # Copyright 2025 Pragmatic Ingeniería
 # Based on work by Ivan Yelizariev, Rafis Bikbov, and others
-# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl.html).
+# License OPL-1 (Odoo Proprietary License v1.0).
 
 import collections
 import urllib.parse as urlparse

@@ -277,12 +277,12 @@ If migrating from the original `base_api` and `openapi` modules:
 - **Developer**: Pragmatic Ingeniería
 - **Website**: https://www.pragmatic.com.co
 - **Email**: api@pragmatic.com.co
-- **License**: LGPL-3.0
+- **License**: OPL-1 (Odoo Proprietary License v1.0)
 
 ## 📄 License
 
 Copyright © 2025 Pragmatic Ingeniería  
-Licensed under LGPL-3.0 or later (https://www.gnu.org/licenses/lgpl.html)
+Licensed under OPL-1 (Odoo Proprietary License v1.0)
 
 ## 🙏 Credits
 

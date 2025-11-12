@@ -1,6 +1,6 @@
 # Copyright 2025 Pragmatic Ingeniería
 # Based on work by Ivan Yelizariev, Anvar Kildebekov, and others
-# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl.html).
+# License OPL-1 (Odoo Proprietary License v1.0).
 {
     "name": "Pragmatic Engineering API",
     "summary": """Complete REST API/OpenAPI/Swagger integration for Odoo 18 with advanced ORM methods""",
@@ -75,6 +75,4 @@
     "post_load": "post_load",
     "auto_install": False,
     "installable": True,
-    "price": 50,
-    "currency": 'USD',
 }

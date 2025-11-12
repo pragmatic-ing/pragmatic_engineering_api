@@ -1,5 +1,5 @@
 # Copyright 2025 Pragmatic Ingeniería
-# License LGPL-3.0 or later (https://www.gnu.org/licenses/lgpl.html).
+# License OPL-1 (Odoo Proprietary License v1.0).
 
 from . import base
 from . import api_namespace

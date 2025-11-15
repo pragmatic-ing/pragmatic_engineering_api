@@ -1,0 +1,638 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* pragmatic_engineering_api
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-15 14:39+0000\n"
+"PO-Revision-Date: 2025-11-15 14:39+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.constraint,message:pragmatic_engineering_api.constraint_api_namespace_name_uniq
+msgid ""
+"A namespace already exists with this name. Namespace's name must be unique!"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.actions.act_window,name:pragmatic_engineering_api.action_api_access
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_ir_model__api_access_ids
+#: model:ir.ui.menu,name:pragmatic_engineering_api.menu_api_access
+#: model_terms:ir.ui.view,arch_db:pragmatic_engineering_api.view_model_form_api
+msgid "API Access"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model,name:pragmatic_engineering_api.model_api_access
+msgid "API Access Configuration"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_ir_model__api_access_count
+msgid "API Access Count"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_ir_exports__api_access_read_many_ids
+msgid "API Access Read Many"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_ir_exports__api_access_read_one_ids
+msgid "API Access Read One"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.ui.menu,name:pragmatic_engineering_api.menu_api_root
+#: model_terms:ir.ui.view,arch_db:pragmatic_engineering_api.view_users_form_api
+msgid "API Configuration"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model,name:pragmatic_engineering_api.model_api_namespace
+msgid "API Integration"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model_terms:ir.ui.view,arch_db:pragmatic_engineering_api.view_users_form_api
+msgid "API Integrations"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.actions.act_window,name:pragmatic_engineering_api.action_api_log
+#: model:ir.ui.menu,name:pragmatic_engineering_api.menu_api_log
+msgid "API Logs"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:res.groups,name:pragmatic_engineering_api.group_api_manager
+msgid "API Manager"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.actions.act_window,name:pragmatic_engineering_api.action_api_namespace
+#: model:ir.ui.menu,name:pragmatic_engineering_api.menu_api_namespace
+msgid "API Namespaces"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model_terms:ir.actions.act_window,help:pragmatic_engineering_api.action_api_namespace
+msgid ""
+"API Namespaces allow you to configure different API integrations\n"
+"                with specific access rules and logging options."
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model,name:pragmatic_engineering_api.model_api_log
+msgid "API Request Log"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_res_users__api_token
+#: model_terms:ir.ui.view,arch_db:pragmatic_engineering_api.view_users_form_api
+msgid "API Token"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:res.groups,name:pragmatic_engineering_api.group_api_user
+msgid "API User"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model_terms:ir.ui.view,arch_db:pragmatic_engineering_api.view_api_namespace_form
+msgid "Access"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_namespace__access_ids
+msgid "Accesses"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_access__active
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_namespace__active
+#: model_terms:ir.ui.view,arch_db:pragmatic_engineering_api.view_api_access_search
+#: model_terms:ir.ui.view,arch_db:pragmatic_engineering_api.view_api_namespace_search
+msgid "Active"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_access__private_methods
+msgid "Allow Private methods"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,help:pragmatic_engineering_api.field_api_access__api_public_methods
+msgid "Allow calling public methods (not starting with underscore)"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_res_users__namespace_ids
+msgid "Allowed API Integrations"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model_terms:ir.ui.view,arch_db:pragmatic_engineering_api.view_api_access_form
+msgid "Allowed Operations"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_namespace__user_ids
+msgid "Allowed Users"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,help:pragmatic_engineering_api.field_api_access__private_methods
+msgid ""
+"Allowed private methods. Private methods are ones that start with "
+"underscore. Format: one method per line. When empty -- private methods are "
+"not allowed"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,help:pragmatic_engineering_api.field_api_access__public_methods
+msgid ""
+"Allowed public methods besides basic ones.\n"
+"Public methods are ones that don't start with underscore).\n"
+"Format: one method per line.\n"
+"When empty -- all public methods are allowed"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model_terms:ir.ui.view,arch_db:pragmatic_engineering_api.view_users_form_api
+msgid "Are you sure you want to reset the API token?"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model_terms:ir.ui.view,arch_db:pragmatic_engineering_api.view_api_namespace_form
+msgid "Are you sure you want to reset the token?"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,help:pragmatic_engineering_api.field_res_users__api_token
+msgid "Authentication token for access to API (/api)."
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model,name:pragmatic_engineering_api.model_base
+msgid "Base"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model_terms:ir.ui.view,arch_db:pragmatic_engineering_api.view_api_access_form
+msgid "CRUD Operations"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_access__api_public_methods
+msgid "Call Public methods via API"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,help:pragmatic_engineering_api.field_api_access__create_context_ids
+msgid "Can be used to pass default values or custom context"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.ui.menu,name:pragmatic_engineering_api.menu_api_configuration
+#: model_terms:ir.ui.view,arch_db:pragmatic_engineering_api.view_api_namespace_form
+msgid "Configuration"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model_terms:ir.actions.act_window,help:pragmatic_engineering_api.action_api_access
+msgid "Configure API Access for Models"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_access_create_context__context
+#: model_terms:ir.ui.view,arch_db:pragmatic_engineering_api.view_api_access_form
+msgid "Context"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#. odoo-python
+#: code:addons/pragmatic_engineering_api/models/api_access.py:0
+msgid "Context must be valid JSON."
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model,name:pragmatic_engineering_api.model_api_access_create_context
+msgid "Context on creating via API"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model_terms:ir.ui.view,arch_db:pragmatic_engineering_api.view_api_access_search
+msgid "Create Allowed"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_access__api_create
+msgid "Create via API"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model_terms:ir.actions.act_window,help:pragmatic_engineering_api.action_api_namespace
+msgid "Create your first API Namespace"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_log__create_date
+msgid "Created"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_access__create_uid
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_access_create_context__create_uid
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_log__create_uid
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_namespace__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_access__create_date
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_access_create_context__create_date
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_namespace__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_access__create_context_ids
+msgid "Creation Context Presets"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model_terms:ir.ui.view,arch_db:pragmatic_engineering_api.view_api_log_search
+msgid "Date"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model_terms:ir.actions.act_window,help:pragmatic_engineering_api.action_api_access
+msgid ""
+"Define which models can be accessed via API and what operations are allowed."
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model_terms:ir.ui.view,arch_db:pragmatic_engineering_api.view_api_access_search
+msgid "Delete Allowed"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_access__api_delete
+msgid "Delete via API"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_access_create_context__description
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_namespace__description
+msgid "Description"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields.selection,name:pragmatic_engineering_api.selection__api_namespace__log_request__disabled
+#: model:ir.model.fields.selection,name:pragmatic_engineering_api.selection__api_namespace__log_response__disabled
+msgid "Disabled"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_access__display_name
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_access_create_context__display_name
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_log__display_name
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_namespace__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields.selection,name:pragmatic_engineering_api.selection__api_namespace__log_response__error
+msgid "Errors only"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model,name:pragmatic_engineering_api.model_ir_exports
+msgid "Exports"
+msgstr "Exportaciones"
+
+#. module: pragmatic_engineering_api
+#: model_terms:ir.ui.view,arch_db:pragmatic_engineering_api.view_api_access_form
+msgid "Field Configuration"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,help:pragmatic_engineering_api.field_api_access__read_one_id
+msgid "Fields to return on reading one record, on creating a record"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,help:pragmatic_engineering_api.field_api_access__read_many_id
+msgid "Fields to return on reading via non one-record endpoint"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields.selection,name:pragmatic_engineering_api.selection__api_namespace__log_request__debug
+#: model:ir.model.fields.selection,name:pragmatic_engineering_api.selection__api_namespace__log_response__debug
+msgid "Full"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model_terms:ir.ui.view,arch_db:pragmatic_engineering_api.view_api_access_search
+#: model_terms:ir.ui.view,arch_db:pragmatic_engineering_api.view_api_log_search
+#: model_terms:ir.ui.view,arch_db:pragmatic_engineering_api.view_api_namespace_search
+msgid "Group By"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_access__id
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_access_create_context__id
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_log__id
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_namespace__id
+msgid "ID"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_namespace__token
+msgid "Identification token"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model_terms:ir.ui.view,arch_db:pragmatic_engineering_api.view_api_access_search
+#: model_terms:ir.ui.view,arch_db:pragmatic_engineering_api.view_api_namespace_search
+msgid "Inactive"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_access__namespace_id
+msgid "Integration"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,help:pragmatic_engineering_api.field_api_namespace__name
+msgid ""
+"Integration name, e.g. ebay, amazon, magento, etc.\n"
+"        The name is used in api endpoint"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model_terms:ir.ui.view,arch_db:pragmatic_engineering_api.view_api_log_search
+msgid "Last 7 Days"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_access__write_uid
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_access_create_context__write_uid
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_log__write_uid
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_namespace__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_access__write_date
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_access_create_context__write_date
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_log__write_date
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_namespace__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_namespace__last_log_date
+msgid "Latest usage"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model_terms:ir.ui.view,arch_db:pragmatic_engineering_api.view_api_access_form
+msgid "List of allowed private methods (one per line)"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model_terms:ir.ui.view,arch_db:pragmatic_engineering_api.view_api_access_form
+msgid "List of allowed public methods (one per line)"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_namespace__log_request
+msgid "Log Requests"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_namespace__log_response
+msgid "Log Responses"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_namespace__log_count
+msgid "Log count"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_namespace__log_ids
+#: model:ir.ui.menu,name:pragmatic_engineering_api.menu_api_logs
+#: model_terms:ir.ui.view,arch_db:pragmatic_engineering_api.view_api_namespace_form
+msgid "Logs"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#. odoo-python
+#: code:addons/pragmatic_engineering_api/models/api_access.py:0
+msgid ""
+"Method %r is not part of the model's method list:\n"
+" %r"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model_terms:ir.ui.view,arch_db:pragmatic_engineering_api.view_api_access_form
+msgid "Methods"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_access__model_id
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_access_create_context__model_id
+#: model_terms:ir.ui.view,arch_db:pragmatic_engineering_api.view_api_access_search
+msgid "Model"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_access__model
+msgid "Model Name"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model,name:pragmatic_engineering_api.model_ir_model
+msgid "Models"
+msgstr "Modelos"
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_access_create_context__name
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_namespace__name
+msgid "Name"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_log__namespace_id
+#: model_terms:ir.ui.view,arch_db:pragmatic_engineering_api.view_api_access_search
+#: model_terms:ir.ui.view,arch_db:pragmatic_engineering_api.view_api_log_search
+msgid "Namespace"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model_terms:ir.ui.view,arch_db:pragmatic_engineering_api.view_api_namespace_form
+msgid "Namespace Name"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model_terms:ir.ui.view,arch_db:pragmatic_engineering_api.view_api_access_form
+msgid "Private Methods"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#. odoo-python
+#: code:addons/pragmatic_engineering_api/models/api_access.py:0
+msgid "Private method (starting with \"_\") listed in public methods whitelist"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model_terms:ir.ui.view,arch_db:pragmatic_engineering_api.view_api_access_form
+msgid "Public Methods"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#. odoo-python
+#: code:addons/pragmatic_engineering_api/models/api_access.py:0
+msgid ""
+"Public method (not starting with \"_\") listed in private methods whitelist"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model_terms:ir.ui.view,arch_db:pragmatic_engineering_api.view_api_access_search
+msgid "Read Allowed"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_access__read_many_id
+msgid "Read Many Fields"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_access__read_one_id
+msgid "Read One Fields"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_access__api_read
+msgid "Read via API"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_log__request
+#: model_terms:ir.ui.view,arch_db:pragmatic_engineering_api.view_api_log_form
+msgid "Request"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_log__request_data
+msgid "Request Data"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,help:pragmatic_engineering_api.field_api_log__request
+msgid "Request summary"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model_terms:ir.ui.view,arch_db:pragmatic_engineering_api.view_api_namespace_form
+#: model_terms:ir.ui.view,arch_db:pragmatic_engineering_api.view_users_form_api
+msgid "Reset Token"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model_terms:ir.ui.view,arch_db:pragmatic_engineering_api.view_api_log_form
+msgid "Response"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_log__response_data
+msgid "Response Data"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_access__public_methods
+msgid "Restrict Public methods"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields.selection,name:pragmatic_engineering_api.selection__api_namespace__log_request__info
+msgid "Short"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_namespace__spec_url
+msgid "Specification Link"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.constraint,message:pragmatic_engineering_api.constraint_api_access_namespace_not_null
+msgid "The Integration (Namespace) must be set."
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#. odoo-python
+#: code:addons/pragmatic_engineering_api/lib/pinguin.py:0
+#: code:addons/pragmatic_engineering_api/models/api_access.py:0
+msgid "The model \"%s\" has no such field: \"%s\"."
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.constraint,message:pragmatic_engineering_api.constraint_api_access_create_context_context_model_name_uniq
+msgid "There is already a context with the same name for this Model"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.constraint,message:pragmatic_engineering_api.constraint_api_access_namespace_model_uniq
+msgid "There is already a record for this Model in this namespace"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model_terms:ir.ui.view,arch_db:pragmatic_engineering_api.view_api_log_search
+msgid "This Month"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model_terms:ir.ui.view,arch_db:pragmatic_engineering_api.view_api_log_search
+msgid "Today"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,help:pragmatic_engineering_api.field_api_namespace__token
+msgid "Token passed by a query string parameter to access the specification."
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model_terms:ir.ui.view,arch_db:pragmatic_engineering_api.view_api_access_search
+msgid "Update Allowed"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model.fields,field_description:pragmatic_engineering_api.field_api_access__api_update
+msgid "Update via API"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#: model:ir.model,name:pragmatic_engineering_api.model_res_users
+msgid "User"
+msgstr "Usuario"
+
+#. module: pragmatic_engineering_api
+#: model_terms:ir.ui.view,arch_db:pragmatic_engineering_api.view_api_namespace_form
+msgid "Users"
+msgstr ""
+
+#. module: pragmatic_engineering_api
+#. odoo-python
+#: code:addons/pragmatic_engineering_api/models/api_access.py:0
+msgid "You must select at least one API method for \"%s\" model."
+msgstr ""

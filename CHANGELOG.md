@@ -37,10 +37,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Migration guide from original base_api and openapi modules
 
 ### Credits
-- Based on the excellent work of Ivan Yelizariev, Anvar Kildebekov, Rafis Bikbov, Denis Mudarisov, XOE Solutions
-- Developed and maintained by Pragmatic Ingeniería
+- Developed and maintained by Pragmatic Ingeniería S.A.S. Soluciones integrales Tic para las Pyme.
 
 ---
 
-Copyright © 2025 Pragmatic Ingeniería
-License: OPL-1 (Odoo Proprietary License v1.0)
+Copyright © 2025 Pragmatic Ingeniería S.A.S. Soluciones integrales Tic para las Pyme.
+License: AGPL-3 (GNU Affero General Public License v3.0)

@@ -1,6 +1,5 @@
-# Copyright 2025 Pragmatic Ingeniería
-# Based on work by Ivan Yelizariev, Anvar Kildebekov, and others
-# License OPL-1 (Odoo Proprietary License v1.0).
+# Copyright 2025 Pragmatic Ingeniería S.A.S. Soluciones integrales Tic para las Pyme.
+# License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 {
     "name": "Pragmatic Engineering API",
     "summary": """Complete REST API/OpenAPI/Swagger integration for Odoo 18 with advanced ORM methods""",
@@ -33,17 +32,17 @@
         * Optimized for performance with proper DB isolation levels
         * Support for parallel query execution
 
-        Copyright 2025 Pragmatic Ingeniería
-        All rights reserved.
+        Copyright 2025 Pragmatic Ingeniería S.A.S. Soluciones integrales Tic para las Pyme.
+        Licensed under AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
     """,
     "category": "Technical",
     "version": "18.0.1.0.0",
     "application": False,
-    "author": "Pragmatic Ingeniería",
-    "maintainers": ["Pragmatic Ingeniería"],
-    "support": "api@pragmatic.com.co",
-    "website": "https://www.pragmatic.com.co",
-    "license": "OPL-1",
+    "author": "Pragmatic Ingeniería S.A.S. Soluciones integrales Tic para las Pyme.",
+    "maintainers": ["Pragmatic Ingeniería S.A.S."],
+    "support": "informacion@pragmaticingenieria.com",
+    "website": "https://www.pragmaticingenieria.com/",
+    "license": "AGPL-3",
     "depends": ["mail", "web"],
     "external_dependencies": {
         "python": ["bravado_core", "swagger_spec_validator", "jsonschema"],

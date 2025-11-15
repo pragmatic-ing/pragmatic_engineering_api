@@ -1,6 +1,5 @@
-# Copyright 2025 Pragmatic Ingeniería
-# Based on work by Ivan Yelizariev, Rafis Bikbov, Denis Mudarisov
-# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl.html).
+# Copyright 2025 Pragmatic Ingeniería S.A.S. Soluciones integrales Tic para las Pyme.
+# License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 
 """OpenAPI Specification Controller."""
 

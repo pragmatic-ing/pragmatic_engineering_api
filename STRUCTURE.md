@@ -115,9 +115,10 @@
 
 ### Identificación del Módulo:
 - **Nombre Técnico**: `pragmatic_engineering_api`
-- **Autor**: Pragmatic Ingeniería
+- **Autor**: Pragmatic Ingeniería S.A.S. Soluciones integrales Tic para las Pyme.
+- **Website**: https://www.pragmaticingenieria.com/
 - **Versión**: 18.0.1.0.0
-- **Licencia**: LGPL-3.0
+- **Licencia**: AGPL-3
 
 ### Configuración Requerida:
 1. Instalar dependencias Python:
@@ -146,4 +147,4 @@ Todos los componentes han sido:
 - ✅ Preparados para producción
 
 ---
-**Copyright © 2025 Pragmatic Ingeniería**
+**Copyright © 2025 Pragmatic Ingeniería S.A.S. Soluciones integrales Tic para las Pyme.**

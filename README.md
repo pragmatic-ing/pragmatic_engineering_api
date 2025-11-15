@@ -274,25 +274,19 @@ If migrating from the original `base_api` and `openapi` modules:
 
 ## 🤝 Support
 
-- **Developer**: Pragmatic Ingeniería
-- **Website**: https://www.pragmatic.com.co
-- **Email**: api@pragmatic.com.co
-- **License**: OPL-1 (Odoo Proprietary License v1.0)
+- **Developer**: Pragmatic Ingeniería S.A.S. Soluciones integrales Tic para las Pyme.
+- **Website**: https://www.pragmaticingenieria.com/
+- **Email**: api@pragmaticingenieria.com
+- **License**: AGPL-3 (GNU Affero General Public License v3.0)
 
 ## 📄 License
 
-Copyright © 2025 Pragmatic Ingeniería  
-Licensed under OPL-1 (Odoo Proprietary License v1.0)
+Copyright © 2025 Pragmatic Ingeniería S.A.S. Soluciones integrales Tic para las Pyme.  
+Licensed under AGPL-3 (GNU Affero General Public License v3.0)
 
 ## 🙏 Credits
 
-This module is based on the excellent work of:
-- Ivan Yelizariev
-- Anvar Kildebekov  
-- Rafis Bikbov
-- Denis Mudarisov
-- XOE Solutions
-- And other contributors to the original base_api and openapi modules
+Developed by Pragmatic Ingeniería S.A.S. - Soluciones integrales Tic para las Pyme.
 
 ---
 

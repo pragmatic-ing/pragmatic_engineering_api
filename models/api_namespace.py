@@ -1,6 +1,5 @@
-# Copyright 2025 Pragmatic Ingeniería
-# Based on work by Ivan Yelizariev, Rafis Bikbov, and others
-# License OPL-1 (Odoo Proprietary License v1.0).
+# Copyright 2025 Pragmatic Ingeniería S.A.S. Soluciones integrales Tic para las Pyme.
+# License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 
 import collections
 import urllib.parse as urlparse
